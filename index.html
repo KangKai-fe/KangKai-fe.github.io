@@ -13,16 +13,175 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .github img{
+            border-radius: 50%;
+        }
+        .nav{
+            margin-top: 50px;
+        }
+        .panel{
+            margin-top: 50px;
+        }
+        .thumbnail{
+            width: 100%;
+            height: ;
+        }
+    </style>
 </head>
-<body>
-    <div class="container page-header">
+<body class="container">
+    <div class="page-header">
         <h1>Kangkai-fe的小窝<small>——梦在远方，路在脚下，加了个油！</small></h1>
     </div>
-    <ul class="container nav nav-tabs">
-      <li role="presentation" class="active"><a href="/">Home</a></li>
-      <li role="presentation"><a href="/demo_list">作品demo展示</a></li>
-      <li role="presentation"><a href="/baidu_ife_task">百度ife任务demo</a></li>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="/">Home</a></li>
+        <li role="presentation"><a href="/demo_list">作品demo展示</a></li>
+        <li role="presentation"><a href="/baidu_ife_task">百度ife任务demo</a></li>
+        <a class="github pull-right" href="https://github.com/KangKai-fe" target="_blank">
+            <img alt="logo" src="img/logo.gif">
+        我的github主页
+        </a>
     </ul>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">作品demo展示
+                <a class="pull-right" href="/demo_list">more &gt;</a>
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/列车时刻表查询.jpg" alt="...">
+                        <div class="caption">
+                            <h3>基于jQueryMobile的列车时刻表查询app</h3>
+                            <p>使用了http://www.webxml.com.cn/的数据服务, 通过http://crossorigin.me/进行跨域中转. 可能会因为网络原因而造成请求数据的失败</p>
+                            <p class="text-center"><a href="demo/jQueryMobile_train/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                        <img src="img/列车时刻表查询QR.png" alt="...">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/数据信息展示.jpg" alt="...">
+                        <div class="caption">
+                            <h3>web-app信息展示</h3>
+                            <p>使用了基于jQuery的fullpage插件实现全屏滚动, 采用组件化开发的形式编写了各种图表的实现</p>
+                            <p class="text-center"><a href="demo/web_app_component/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                        <img src="img/数据信息展示QR.png" alt="...">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/星座运势demo.jpg" alt="...">
+                        <div class="caption">
+                            <h3>web-app信息展示-星座运势demo</h3>
+                            <p>使用了基于jQuery的fullpage插件实现全屏滚动, 采用组件化开发的形式编写了各种图表的实现</p>
+                            <p class="text-center"><a href="demo/web_app_constellation/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                        <img src="img/星座运势demoQR.png" alt="...">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/web_app_reader.jpg" alt="...">
+                        <div class="caption">
+                            <h3>web-app阅读器demo</h3>
+                            <p>利用jsonp实现数据交互, localStorage实现设置的本地存储, base64编码实现icon, zepto替代jquery作为基本dom操作的库</p>
+                            <p class="text-center"><a href="demo/web_app_reader/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                        <img src="img/web_app_readerQR.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/shopping_page.jpg" alt="...">
+                        <div class="caption">
+                            <h3>HTML/CSS + 原生JS实现静态页面</h3>
+                            <p class="text-center"><a href="demo/shopping/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/company.jpg" alt="...">
+                        <div class="caption">
+                            <h3>HTML/CSS + 原生JS实现静态页面</h3>
+                            <p class="text-center"><a href="demo/company/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/bootstrap_page.jpg" alt="...">
+                        <div class="caption">
+                            <h3>基于bootstrap制作的网页</h3>
+                            <p class="text-center"><a href="demo/bootstrap_page/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/时钟demo.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Canvas时钟效果</h3>
+                            <p class="text-center"><a href="demo/canvas/clock_demo.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">百度ife任务demo
+                <a class="pull-right" href="/demo_list">more &gt;</a>
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/任务六：通过HTML及CSS模拟报纸排版.jpg" alt="...">
+                        <div class="caption">
+                            <h3>任务六：通过HTML及CSS模拟报纸排版</h3>
+                            <p class="text-center"><a href="demo/bootstrap_page/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/任务九：使用HTML_CSS实现一个复杂页面.jpg" alt="...">
+                        <div class="caption">
+                            <h3>任务九：使用HTML_CSS实现一个复杂页面</h3>
+                            <p class="text-center"><a href="demo/bootstrap_page/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/任务七：实现常见的技术产品官网的页面架构及样式布局.jpg" alt="...">
+                        <div class="caption">
+                            <h3>任务七：实现常见的技术产品官网的页面架构及样式布局</h3>
+                            <p class="text-center"><a href="demo/bootstrap_page/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="img/任务十一：移动Web页面布局实践.jpg" alt="...">
+                        <div class="caption">
+                            <h3>任务十一：移动Web页面布局实践</h3>
+                            <p class="text-center"><a href="demo/bootstrap_page/index.html" class="btn btn-primary" target="_blank" role="button">点击查看</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
 	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
