@@ -21,6 +21,9 @@
             -webkit-perspective-origin: 50% 50%;
             -webkit-transform-style: preserve-3d;
             -webkit-transform-origin: 50px 50px -50px;
+            -webkit-transition: transform .2s ease;
+            -o-transition: transform .2s ease;
+            transition: transform .2s ease;
         }
         .surface {
             height: 100px;
@@ -82,11 +85,11 @@
     </div>
     <div id="controller">
         <p>rotate x: <span id="degx-span">0</span>deg</p>
-        <input id="rotatex" class="range-control" type="range" value="0" min="-360" max="360" onmousemove="rotate()" />
+        <input id="rotatex" class="range-control" type="range" value="50" min="-360" max="360" onmousemove="rotate()" />
         <p>rotate y: <span id="degy-span">0</span>deg</p>
-        <input id="rotatey" class="range-control" type="range" value="0" min="-360" max="360" onmousemove="rotate()" />
+        <input id="rotatey" class="range-control" type="range" value="-40" min="-360" max="360" onmousemove="rotate()" />
         <p>rotate z: <span id="degz-span">0</span>deg</p>
-        <input id="rotatez" class="range-control" type="range" value="0" min="-360" max="360" onmousemove="rotate()" />
+        <input id="rotatez" class="range-control" type="range" value="50" min="-360" max="360" onmousemove="rotate()" />
     </div>
     <script>
         function rotate() {
